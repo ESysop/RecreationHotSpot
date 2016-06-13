@@ -58,11 +58,11 @@ namespace RecreationHotSpot
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "276818441112-57nr3t37ovbmml41t9mp3kfvcnuvghbb.apps.googleusercontent.com",
+                ClientSecret = "RC6zecQ1R3BCvuSTAdmJtGcn"
+            });
         }
     }
 }
